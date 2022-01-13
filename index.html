@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OpenSans">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Zoom</title>
 </head>
 <body>
     <main>
-        <div class="container-flex debug" id="main-top">
+        <div class="container-flex" id="main-top">
             <div class="item-flex info">
                 <i class="fas fa-th"></i> Speaker view
             </div>
@@ -18,7 +19,7 @@
                 <i class="fab fa-joomla"></i>
             </div>
         </div>
-        <div class="container-flex debug" id="main-bottom">
+        <div class="container-flex" id="main-bottom">
             <div class="item-flex pic">
                 <div class="person">
                     <h5> <i class="fas fa-microphone-slash"></i> Alberto Fanini</h5>
@@ -197,7 +198,9 @@
         </div>
     </main>
     <footer class="zoom-toolbar">
+        <!--Left-->
         <ul class="left-controls">
+            <!--Start Icon-->
             <li class="icon-box">
                 <div class="icon">
                     <i class="fas fa-microphone"></i>
@@ -207,7 +210,8 @@
                 </div>  
                 <i class="fas fa-chevron-up"></i>
             </li>
-
+            <!--End Icon-->
+            <!--Start Icon-->
             <li class="icon-box">
                 <div class="icon">
                     <i class="fas fa-video"></i>
@@ -217,28 +221,95 @@
                 </div>
                 <i class="fas fa-chevron-up"></i>
             </li>
+            <!--End Icon-->
         </ul>
+        <!--Center-->
         <ul class="center-controls">
+            <!--Start icon-->
             <li class="icon-box">
                 <div class="icon">
-                    <i class="fas fa-microphone"></i>
+                    <i class="fas fa-user-plus"></i>
                     <span class="icon-label">
-                        Mute
+                        Invite
                     </span>
-                </div>  
-                <i class="fas fa-chevron-up"></i>
+                </div>
             </li>
-
+            <!--End Icon-->
+            <!--Start Icon-->
             <li class="icon-box">
                 <div class="icon">
-                    <i class="fas fa-video"></i>
+                    <i class="fas fa-user-friends"></i>
                     <span class="icon-label">
-                        Stop Video
+                        Manage Participants
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box">
+                <div class="icon">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="icon-label">
+                        Polling
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box" >
+                <div class="icon">
+                    <i class="fas fa-share-square" id="green"></i>
+                    <span class="icon-label">
+                        Share screen
                     </span>
                 </div>
                 <i class="fas fa-chevron-up"></i>
             </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box">
+                <div class="icon">
+                    <i class="fas fa-comment"></i>
+                    <span class="icon-label">
+                        Chat
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box">
+                <div class="icon">
+                    <i class="fas fa-record-vinyl"></i>
+                    <span class="icon-label">
+                        Record
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box">
+                <div class="icon">
+                    <i class="fas fa-th-large"></i>
+                    <span class="icon-label">
+                        Breakout Rooms
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
+            <!--Start Icon-->
+            <li class="icon-box">
+                <div class="icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <span class="icon-label">
+                        More
+                    </span>
+                </div>
+            </li>
+            <!--End Icon-->
         </ul>
+        <button class="close-btn">
+            End meeting
+        </button>
     </footer>
 </body>
 </html>
